@@ -1,82 +1,10 @@
 /* Inter Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-   
-    @import url(" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
-:root {
-    --blue : #228CE8;
-    --pink: #ED4A80;
-}
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 12px;
-    font-family: "Inter", serif;
-    
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-main {
-    margin: 60px 40px;
-    /* margin: 60px auto; */
-}
+@import url(" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
 
-.container {
-    border: 1px solid black;
-    width: 529px;
-    
-    
-    padding: 60px 40px;
-    border-radius: 20px;
-}
-.box {
-    margin-bottom: 32px;
-}
-.heading {
-    text-decoration: underline;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 40px;
-}
-.btn {
-    color: #ffffff;
-    padding: 0px 20px;
-    height: 35px;
-    margin-right: 8px;
-    text-decoration: none;
-    display: inline-block;
-    line-height: 35px;
-
-}
-.btn-blue {
-    background-color: var(--blue);
-    border: 1px solid var(--blue);
-}
-.btn-pink {
-    background-color: var(--pink);
-    border: 1px solid var(--pink);
-    
-}
-.btn-outline-blue {
-    background-color: transparent;
-    border: 1px solid var(--blue);
-    color: var(--blue);
-    
-}
-.btn-outline-pink {
-    background-color: transparent;
-    border: 1px solid var(--pink);
-    color: var(--pink);
-    
-}
-.rounded {
-    border-radius: 6px;
-}
-.pill {
-    border-radius: 99999px;
-}
-.btn-icon {
-    width: 48px;
-    height: 48px;
-    padding: 0;
-    
-}
+@import "../_variable.css";
+@import "../_global.css";
+@import "../_utility.css";
+@import "../components/_button.css";
+@import "../components/_text.css";

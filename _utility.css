@@ -1,0 +1,10 @@
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.rounded {
+  border-radius: 6px;
+}
+.pill {
+  border-radius: 99999px;
+}

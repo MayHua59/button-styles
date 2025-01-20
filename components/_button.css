@@ -1,0 +1,35 @@
+.btn {
+  color: #ffffff;
+  padding: 0px 20px;
+  height: 35px;
+  margin-right: 8px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 35px;
+}
+.btn-blue {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+.btn-pink {
+  background-color: var(--pink);
+  border: 1px solid var(--pink);
+}
+.btn-outline-blue {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.btn-outline-pink {
+  background-color: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+}
+.btn-icon {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+}
+i {
+  font-size: 14px;
+}
